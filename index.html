@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/8d0a2aa6d4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Leni's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav_bar">
+      <div class="logo">
+        <a href="#" title="Visit Leni">Leni</a>
+      </div>
+      <div class="humburger_menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="#homepage" title="visit my portfolio" class="nav_link">Portofolio</a>
+        </li>
+        <li>
+          <a href="#aboutpage" title="visit my About page" class="nav_link">About</a>
+        </li>
+        <li>
+          <a href="#contact_page" title="visit my Contact page" class="nav_link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="pop-up" id="pop_up_window">
+
+  </div>
+
+  <main>
+    <section class="homepage" id="homepage">
+      <div class="homepage_container">
+        <h1>I’m Leni<br />Glad to see you!</h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature
+          or website Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <div class="connect">
+          <a href="#"> LET’S CONNECT</a>
+        </div>
+        <ul class="icon_wrapper">
+          <li><a href="https://www.linkedin.com/in/mauleni-risqi-handayani/" target="_blank"
+              rel="noopener noreferrer"><img src="images/Linkedin_icon.svg" alt="My linnkedin account" /></a></li>
+          <li><a href="https://github.com/hubnigitle" target="_blank" rel="noopener noreferrer"><img
+                src="images/Vector_4.svg" alt="Git hub account" /></a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="workpage" id="work">
+    </section>
+    <section class="aboutpage" id="aboutpage">
+      <div class="aboutpage_container">
+        <h2>
+          About<br />
+          Myself
+        </h2>
+        <div class="about_p">
+          <p>
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+        </div>
+        <div class="connect">
+          <!-- <a href="#"> LET’S CONNECT</a> -->
+        </div>
+        <!-- <ul class="icon_wrapper">
+            <li><img src="images/Vector_1.svg" alt="My twitter account" /></li>
+            <li>
+              <img src="images/Linkedin_icon.svg" alt="My linkedin account" />
+            </li>
+            <li><img src="images/Vector_3.svg" alt="Medium" /></li>
+            <li><img src="images/Vector_4.svg" alt="My Github account" /></li>
+            <li><img src="images/Vector_5.svg" alt="Angellist" /></li>
+          </ul> -->
+        <div class="Project_button">
+          <button type="button">Get my resume</button>
+        </div>
+        <div class="languages_bar">
+          <div class="languages">Language</div>
+          <div>
+            <img src="images/arrow1/Normal Button/Tertiary/Icons/Union.png" alt="Language i speak" />
+          </div>
+        </div>
+        <div class="skills_button_image">
+          <ul>
+            <li class="javascript_flex">
+              <img src="images/js/ic_kotlin.svg" alt="" />
+              <p>Kotlin</p>
+            </li>
+            <li class="javascript_flex">
+              <img src="images/js/ic_cpp.svg" alt="" />
+              <p>C++</p>
+            </li>
+            <li class="javascript_flex">
+              <img src="images/js/Ellipse_1.svg" alt="" />
+              <p>Javascript</p>
+            </li>
+
+          </ul>
+        </div>
+        <div class="frame_skills_bar">
+          <div class="frameworks_bar">
+            <div class="frameworks">Frameworks</div>
+            <div>
+              <img src="images/arrow2/Normal Button/Tertiary/Icons/Union.png" alt="My frameworks" />
+            </div>
+          </div>
+          <hr />
+          <div class="skills_bar">
+            <div class="skills">Skills</div>
+            <div>
+              <img src="images/arrow2/Normal Button/Tertiary/Icons/Union.png" alt="My skills" />
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </section>
+    <section class="contact_page" id="contact_page">
+      <div class="contact_page_container">
+        <h2>Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I’d love
+          to help with it
+        </p>
+      </div>
+      <form id="form" class="contact_form" action="https://formspree.io/f/mpwrqpko" method="post">
+        <ul class="li_st">
+          <li class="li-li_st">
+            <input type="text" name="name" id="name" placeholder="Name" maxlength="30" required />
+          </li>
+          <li class="li1-li_st">
+            <input type="email" name="Email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              placeholder="Email" required />
+          </li>
+          <li class="li2-li_st">
+            <textarea name="comments" placeholder="Write a message" maxlength="500" id="textarea" required></textarea>
+          </li>
+        </ul>
+        <div class="contact_button">
+          <!-- <small id="alertmessage"></small> -->
+          <button id="contact_button" type="submit">Get In Touch</button>
+        </div>
+        <div class="submit_response error_hidden">
+          Thank you for your Message
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
