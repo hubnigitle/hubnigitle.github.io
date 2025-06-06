@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 0px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -723,7 +723,7 @@ li .btn-btn-default {
   border: 1px solid #396df2;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 0px) {
   .humburger_menu {
     display: none;
   }
@@ -1095,5 +1095,3 @@ li .btn-btn-default {
   }
   
 }
-
-
